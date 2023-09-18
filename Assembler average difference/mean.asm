@@ -24,29 +24,31 @@ main:
 
 _loop:
     cmp edx, [len]
-    jge calculate
+    jge calculate_negative
     
     mov esi, [x + edx * 4]
-    cmp esi, [y + edx * 4]
-    
-    jl false
-    true:
-        sub esi, [y + edx * 4]
-        jmp iteration
-
-    false:
-        mov esi, [y + edx * 4]
-        sub esi, [x + edx * 4]
+    sub esi, [y + edx * 4]
 
     iteration:
 		add eax, esi
 		inc edx
 		jmp _loop
 
-calculate:
-    mov ecx, edx
+calculate_negative:
+    cmp eax, 0
+    jge calculate
+    neg eax
+    mov ecx, [len]
     mov edx, 0
     div ecx
+    neg eax
+    jmp print
+
+calculate: 
+    mov ecx, [len]
+    mov edx, 0
+    div ecx
+    jmp print
 
 print:
     pushd
