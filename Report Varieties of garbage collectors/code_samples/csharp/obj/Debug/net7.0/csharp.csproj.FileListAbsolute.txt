@@ -1,0 +1,15 @@
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\bin\Debug\net7.0\csharp.exe
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\bin\Debug\net7.0\csharp.deps.json
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\bin\Debug\net7.0\csharp.runtimeconfig.json
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\bin\Debug\net7.0\csharp.dll
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\bin\Debug\net7.0\csharp.pdb
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.csproj.AssemblyReference.cache
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.GeneratedMSBuildEditorConfig.editorconfig
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.AssemblyInfoInputs.cache
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.AssemblyInfo.cs
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.csproj.CoreCompileInputs.cache
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.dll
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\refint\csharp.dll
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.pdb
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\csharp.genruntimeconfig.cache
+B:\Файлы\isu\Programming-languages\Report Varieties of garbage collectors\code_samples\csharp\obj\Debug\net7.0\ref\csharp.dll
