@@ -141,7 +141,7 @@
 						путем установки специальных маркеров (обычно битовых флагов) внутри самих объектов).
 					</p>
 					<p class="fragment">
-						2. Сборщик мусора освобождает память от недостежимых объектов.
+						2. Сборщик мусора освобождает память от недостижимых объектов.
 					</p>
 				</section>
 				<section>
@@ -455,6 +455,17 @@
 				<section>
 					<p style="font-size: xx-large;">В Go нельзя обращаться к GC</p>
 					<img src="../code_samples/go/This_is_Fine_Gopher.png">
+				</section>
+
+				<section>
+					<p style="font-size: xx-large;">Но можно управлять параметрами запуска GC</p>
+					<code>
+						<pre>
+							<code data-trim data-line-numbers="1-14|3|5-8|10-13">
+								debug.SetGCPercent(50)
+							</code>
+						</pre>
+					</code>
 				</section>
 			</section>
 
