@@ -1,0 +1,16 @@
+[Unit]
+Description=FedorKuznetsov Arduino Service
+After=network.target
+
+[Service]
+ExecStart=python3 FedorKuznetsov.py
+WorkingDirectory=/home/user/FedorKuznetsov/
+Type=simple
+Restart=always
+RestartSec=10
+StandardOutput=null
+
+User=user
+
+[Install]
+WantedBy=multi-user.target
